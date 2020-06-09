@@ -17,7 +17,7 @@ $(document).ready(function() {
 
   // UI logic
 
-      $("#result").show();
+      $("#result").fadeIn();
       $("#output").text("Your calculation is " + numbersArray + " and the total amount of numbers in your calcuation is " + (numbersArray.length));
   } else {
     alert("Please enter positive integers in all fields");

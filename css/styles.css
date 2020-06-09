@@ -1,3 +1,18 @@
 #result {
   display:none;
 }
+
+body {
+  background-color: grey;
+  display: flex;
+  text-align: left;
+  justify-content: center;
+}
+
+#form {
+  width: 150px;
+}
+
+h1 {
+  color: palegoldenrod;
+}
